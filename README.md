@@ -13,3 +13,5 @@ some description
 7. git commit -m "" -m "" - header and description 
 8. git push - this puts our commited code on our local repo to github repository 
 9. after every change we neet to use ctrl S for save otherwise our git status command will not find anything new in our code
+
+1. git remote add <name> <url> (when we are in new enviroment we need to specify where we want to push our changes, for that is needed this command)

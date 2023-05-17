@@ -1,0 +1,28 @@
+<!--Client site validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> <!-- main part starts here -->
+    <form method="post">
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user" required><br> <!--The web browser will focus on first input and inform user that the field is empty-->
+        <label for="pass">Password:</label><br>                <!--It provides better user experience and improve usage of resources-->
+        <input type="password" id="pass" name="pass" required><br> <!-- because the site doesnt have to communicate with the web server right away when we know the form is wrong-->
+        <input type="submit" value="Submit">
+    </form>
+    
+
+    <form method="post">
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user" required minlength="4" maxlength="15"><br> <!--here we require the input to be minimum length of 4 letters and max od 15 -->
+        <label for="pass">Password:</label><br>                
+        <input type="password" id="pass" name="pass" required minlength="5"><br> <!-- here minimum lenght is 5 letters-->
+        <input type="submit" value="Submit"> <!-- if you click the submit button now, the web browser will inform you about the requirements-->
+    </form>
+</body>
+</html>

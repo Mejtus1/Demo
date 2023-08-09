@@ -21,3 +21,4 @@ some description
 
 git reset - resets your staged file  
 git branch - lets you create an isolated enviroment within your repository to make changes
+git clone - it is used to clone in our local repository on machine

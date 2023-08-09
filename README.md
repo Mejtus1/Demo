@@ -27,3 +27,15 @@ Syncing local changes
 Git add <files> - moves changed files to staging area
 Git commit -m "" - commits changes in a staged area
 Git push - moves changes into repository on github
+
+
+------
+
+remote repositories
+- repositories that are stored elsewhere
+git push = transfer changes to the remote repo
+git fetch = transfer any changes from remote repot to the local repo (it doesnt merge changes)
+git pull = transfer changes from remote to local repo and merge them to a branch (fetch + merge)
+
+origin = your fork 
+upstream = original work

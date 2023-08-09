@@ -19,4 +19,4 @@ some description
 
 ------
 
-git reset - resets your staged file 
+git reset - resets your staged file  

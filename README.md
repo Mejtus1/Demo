@@ -20,3 +20,4 @@ some description
 ------
 
 git reset - resets your staged file  
+git branch - lets you create an isolated enviroment within your repository to make changes

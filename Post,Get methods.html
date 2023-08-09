@@ -1,0 +1,19 @@
+<!-- it is possible to send data as a request, you can use GET or POST http method -->
+<form method="get"></form> <!--we specify which method we want to use in form method element-->
+
+<!--this login form accepts username and password and it also has a login button that submits the form to the web server -->¨
+<form method="get">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" value="admin"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="password"><br>
+    <input type="submit" value="Log in">
+</form>
+<!--when the login button is clicked the form data is send as part of the request url,
+    the web server recieves the http GET request and extracts the form data from the url
+    3 key problems: the length of URL is limited to around 2 thousand characters
+    the length of the requested URL is limited by web servers. (apache and enginX 4000 characters)
+    since tha data is included in url, it is stored in webbrowser history and for PII info is major risk 
+
+    when we use POST (post is more secure than get) so we use https and post 
+    the form data is inserted into the http post request and its -->
